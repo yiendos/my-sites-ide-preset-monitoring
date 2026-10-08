@@ -1,0 +1,20 @@
+{
+    "name": "yiendos/my-sites-ide-preset-monitoring",
+    "description": "The whole my-sites-ide monitoring stack in one require - Grafana, Prometheus, Loki, Tempo and Alloy",
+    "type": "metapackage",
+    "license": "MIT",
+    "keywords": ["my-sites-ide", "preset", "monitoring", "observability", "grafana", "prometheus", "loki", "tempo", "alloy"],
+    "authors": [
+        {
+            "name": "Paul Yiend",
+            "email": "yiendos@sbmatrix.com"
+        }
+    ],
+    "require": {
+        "yiendos/my-sites-ide-monitoring-grafana": "*",
+        "yiendos/my-sites-ide-monitoring-prometheus": "*",
+        "yiendos/my-sites-ide-monitoring-loki": "*",
+        "yiendos/my-sites-ide-monitoring-tempo": "*",
+        "yiendos/my-sites-ide-monitoring-alloy": "*"
+    }
+}
